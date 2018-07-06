@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    margin: -20px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+td#teb_test1 {
+    vertical-align:top;
+    text-align: justify;
+}
+
+td#teb_test2 {
+    vertical-align:middle;
+
+}
+
+span#price {
+
+    color: white; /* Красный цвет символов */
+    font-size: 150%;
+}
+
+
+th#tab_product {
+    vertical-align: top;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+#image_new {
+    margin-left: 80%;
+}
+
+
+.warning_true {
+    color: springgreen;
+    font-size:12pt;
+
+}
+
+.warning_false {
+    color: red;
+    font-size:12pt;
+
+}

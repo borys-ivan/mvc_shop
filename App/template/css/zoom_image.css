@@ -1,0 +1,28 @@
+td {
+    position: relative;
+}
+
+.clone {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+.clone > img {
+    width: 50%;
+    height: 50%;
+
+}
+
+.clear_buton {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+    z-index: 10;
+    background-image:  url(http://www.veryicon.com/icon/48/System/Must%20Have/Remove.png);
+}
+.clear_buton:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .9);
+}
